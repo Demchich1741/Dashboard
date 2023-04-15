@@ -10,13 +10,12 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 0 auto;
     width: 100%;
 }
 
 /*Header*/
 
-header {
+.header_logo {
     border-bottom: #272727 1px solid;
     display: flex;
     align-items: center;
@@ -30,16 +29,14 @@ header {
 
 .logo_box {
     display: flex;
-    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 103px;
     border-right: #272727 1px solid;
-    padding-right: 106px;
+    align-items: center;
 }
 
 .logo_box img {
-    width: 31px;
-    height: 31px;
-    margin-right: 7px;
-    margin-top: 15px;
+    padding-right: 10px;
 }
 
 .logo_text {
@@ -49,15 +46,21 @@ header {
     color: #fff;
 }
 
+.head_nav {
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0 30px;
+}
+
 .search_bar {
-    background: #1E1E1E;
     display: flex;
     align-items: center;
-    width: 340px;
+    background: #1E1E1E;
+    min-width: 340px;
     height: 25px;
     border-radius: 32px;
     padding: 5px 12px;
-    margin-left: 32px;
 }
 
 .search_bar input {
@@ -81,10 +84,12 @@ header {
     cursor: pointer;
 }
 
+.header_nav {
+    min-width: 149px;
+}
+
 .header_settings,
 .header_bell {
-    height: 17px;
-    width: 17px;
     padding: 10px;
     border-radius: 39px;
     background-color: #1E1E1E;
@@ -98,41 +103,31 @@ header {
 }
 
 .header_profile {
-    height: 37px;
-    width: 37px;
     border-radius: 39px;
-    margin-right: 44px;
-}
-
-.header_nav {
-    display: flex;
-    margin-left: auto;
 }
 
 /* Aside */
 
 .aside_container {
     position: absolute;
-    width: 0 auto;
     margin: 0 auto;
     border-right: #272727 1px solid;
     padding-right: 82px;
 }
 
-aside ul,
-h2 {
+.aside ul,
+.aside h2 {
     color: #898989;
-
 }
 
-aside li {
+.aside li {
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 140%;
 }
 
-aside h2 {
+.aside h2 {
     margin-left: 40px;
     margin-bottom: 30px;
     font-style: normal;
@@ -142,38 +137,37 @@ aside h2 {
     letter-spacing: 0.05em;
 }
 
-ul {
+.aside ul {
     list-style-type: none;
     margin-left: -40px;
 }
 
-li img {
+.aside li img {
     margin-right: 11px;
 }
 
-aside li {
-    width: 150px;
+.aside li {
     display: flex;
+    width: 150px;
     padding: 13px 10px 13px 40px;
     cursor: pointer;
     position: relative;
     margin-bottom: 30px;
     align-items: center;
     overflow: hidden;
-    text-decoration: none;
 }
 
-aside li:hover {
+.aside li:hover {
     color: #fff;
     transition: .6s;
     font-weight: 600;
 }
 
-aside li:hover img {
+.aside li:hover img {
     filter: brightness(0) invert(1);
 }
 
-aside li::before {
+.aside li::before {
     content: "";
     position: absolute;
     border-radius: 0px 38.8199px 38.8199px 0px;
@@ -190,17 +184,192 @@ aside li::before {
     z-index: -1;
 }
 
-aside li:hover::before {
+.aside li:hover::before {
     transform: translateX(0);
 }
 
 .main_list {
     padding-top: 10px;
-    margin-bottom: 40px;
 }
 
-.recruitment_list {
-    margin-bottom: 40px;
+.aside_bar {
+    padding-bottom: 5px;
 }
 
 /*Vacancy*/
+
+.vacancy_container {
+    margin-left: 283px;
+}
+
+.vacancy_text_box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+.vacancy_text h1 {
+    margin-left: 30px;
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.174px;
+    line-height: 125%;
+}
+
+.vacancy_sort {
+    margin-right: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 118px;
+    height: 38px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.646px;
+    line-height: 140%;
+    color: #898989;
+    background-color: #1E1E1E;
+    border-radius: 32px;
+    padding-left: 10px;
+}
+
+.sort {
+    background: transparent;
+    outline: none;
+    border: none;
+    color: #898989;
+    width: 60px;
+    padding-right: 0px;
+}
+
+.vacancy_blocks {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 31px;
+    margin-right: 31px;
+}
+
+.vacancy_block:nth-child(1) {
+    border-left: 5px solid #29C5EE;
+}
+
+.vacancy_block:nth-child(2) {
+    border-left: 5px solid #CF1A2C;
+}
+
+.vacancy_block:nth-child(3) {
+    border-left: 5px solid #EAB04D;
+}
+
+.vacancy_block {
+    min-width: 315px;
+    height: 182px;
+    background: #1E1E1E;
+    border-radius: 15px;
+}
+
+.vacancy_block_main {
+    display: flex;
+    align-items: center;
+}
+
+.vacancy_block_main img:nth-child(1) {
+    padding-right: 11px;
+    padding-left: 9px;
+}
+
+.vacancy_block_main h2 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17.469px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-bottom: -7px;
+}
+
+.vacancy_block_main p {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 11.646px;
+    line-height: 14px;
+    color: #898989;
+}
+
+.vacancy_block_logo {
+    width: 150px;
+}
+
+.vacancy_block_arrow {
+    margin-left: 38px;
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(48.5249px);
+    border-radius: 50px;
+    padding: 10px;
+}
+
+.vacancy_block_span {
+    padding-left: 3px;
+    display: flex;
+    align-items: center;
+}
+
+.vacancy_block span:hover {
+    background-color: #3b3b3b;
+    transition: .5s;
+}
+
+.vacancy_block span { 
+    display: flex;
+    align-items: center;
+    padding: 7px 11px 7px 9px;
+    margin-left: 7px;
+    background-color: #282828;
+    border-radius: 23px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12.6165px;
+    line-height: 100%;
+    text-align: center;
+    color: #898989;
+}
+
+.vacancy_block_span img {
+    padding-right: 5px;
+}
+
+.vacancy_block_info {
+    display: flex;
+    align-items: end;
+    height: 90px;
+}
+
+.vacancy_block_info h1 {
+    margin-left: 15px;
+    margin-bottom: 15px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 38.8199px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+
+.vacancy_block_info p {
+    margin-bottom: 25px;
+    margin-left: 7px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.646px;
+    line-height: 14px;
+    color: #898989;
+}
+
+.vacancy_block_info .vacancy_block_number {
+    color: #00B85E;
+    padding-left: 80px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11.646px;
+    line-height: 140%;
+}
