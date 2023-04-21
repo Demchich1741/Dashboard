@@ -203,6 +203,7 @@ body {
 }
 
 .vacancy_text_box {
+    width: 1075px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -219,7 +220,6 @@ body {
 }
 
 .vacancy_sort {
-    margin-right: 75px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -241,14 +241,14 @@ body {
     border: none;
     color: #898989;
     width: 60px;
+    height: 25px;
     padding-right: 0px;
 }
 
 .vacancy_blocks {
+    width: 1050px;
     display: flex;
-    justify-content: space-between;
-    margin-left: 31px;
-    margin-right: 31px;
+    margin-left: 9px;
 }
 
 .vacancy_block:nth-child(1) {
@@ -264,6 +264,7 @@ body {
 }
 
 .vacancy_block {
+    margin-left: 22px;
     min-width: 315px;
     height: 182px;
     background: #1E1E1E;
@@ -320,7 +321,7 @@ body {
     transition: .5s;
 }
 
-.vacancy_block span { 
+.vacancy_block span {
     display: flex;
     align-items: center;
     padding: 7px 11px 7px 9px;
@@ -372,4 +373,183 @@ body {
     font-weight: 400;
     font-size: 11.646px;
     line-height: 140%;
+}
+
+/* Competitors */
+
+.candidate {
+    margin-left: 283px;
+}
+
+.candidate_top {
+    width: 1045px;
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+}
+
+.candidate_logo {
+    color: #fff;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 27.174px;
+    line-height: 125%;
+}
+
+
+.candidate_date {
+    padding: 9px 5px 11px 5px;
+    text-align: center;
+    width: 115px;
+    background-color: #1E1E1E;
+    border-radius: 32px;
+    outline: none;
+    border: none;
+    color: #898989;
+}
+
+.candidate_date select {
+    background-color: #1E1E1E;
+    outline: none;
+    border: none;
+    color: #898989;
+
+}
+
+.candidate_block {
+    border-radius: 15.5px;
+    margin-left: 30px;
+    background: #1E1E1E;
+    width: 1078px;
+    height: auto;
+}
+
+.candidate_block_top {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #272727;
+    height: 52px;
+}
+
+.candidate_block_top a {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    text-align: center;
+    width: 67px;
+    text-decoration: none;
+    color: #898989;
+    font-family: 'Urbanist';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.528px;
+    line-height: 140%;
+}
+
+.candidate_block_top a:nth-child(1) {
+    margin-left: 15px;
+}
+
+.candidate_block_top a:nth-child(2) {
+    margin-left: 39px;
+}
+
+.candidate_block_top a:nth-child(3) {
+    margin-left: 39px;
+}
+
+.candidate_block_top a:hover {
+    color: #FFFFFF;
+    font-weight: 700;
+    border-bottom: 3px solid;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(107.3deg, #6E38E0 13.39%, #FF5F36 77.64%);
+}
+
+.candidate_block_bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 19px;
+    gap: 38.82px;
+    width: 1006px;
+    height: 42.7px;
+    background: #262626;
+    border-radius: 7px;
+    margin-left: 16px;
+    margin-top: 15px;
+}
+
+.candidate_block_bar span {
+    display: flex;
+    align-items: center;
+    color: #898989;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.587px;
+    line-height: 16px;
+    letter-spacing: 0.05em;
+    width: 135px;
+    text-align: start;
+}
+
+.candidate_block_bar span:nth-child(1) {
+    width: 150px;
+}
+
+.candidate_block_bar span:nth-child(2) {
+    width: 52px;
+}
+
+.candidate_block_bar span:nth-child(5) {
+    width: 150px;
+}
+
+.candidate_block_profiles {
+    display: flex;
+    flex-direction: column;
+}
+
+.candidate_block_profile {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 25px;
+    gap: 38.82px;
+
+    width: 980px;
+    height: 77.64px;
+    border-bottom: 1px solid #272727;
+}
+
+.candidate_block_profile img {
+    border-radius: 30px;
+}
+.candidate_profile {
+    margin-right: 6px;
+}
+.candidate_block_profile span {
+    width: 135px;
+    text-align: start;
+}
+
+.candidate_block_profile span:nth-child(1) {
+    display: flex;
+    align-items: center;
+    width: 160px;
+}
+
+.candidate_block_profile span:nth-child(2) {
+    width: 52px;
+}
+
+.candidate_block_profile span:nth-child(5) {
+    width: 150px;
+}
+
+.candidate_block_profile span:nth-child(6) {
+    width:100px
 }
