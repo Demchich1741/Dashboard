@@ -11,214 +11,264 @@
 </head>
 
 <body>
-    <header class="header_logo">
-        <div class="container">
-            <div class="header_box">
-                <div class="logo_box">
-                    <img src="img/logo.png" alt="" width="31px" height="31px">
-                    <h1 class="logo_text">TalentCore</h1>
-                </div>
-                <header class="head_nav">
-                    <form action="" class="search_bar">
-                        <button type="submit"><img src="img/search.svg" alt="" class="search_btn"></button>
-                        <input type="text" placeholder="Search for jobs, candidates and more...">
-                    </form>
-                    <div class="header_nav">
-                        <img src="img/settings.svg" alt="" class="header_settings" height="17px" width="17px">
-                        <img src="img/bell.svg" alt="" class="header_bell" height="17px" width="17px">
-                        <img src="img/profile.png" alt="" class="header_profile" height="37px" width="37px">
-                    </div>
-                </header>
+    <header class="header">
+        <div class="header_logo_box">
+            <img src="img/logo.png" alt="" height="31px" width="31px">
+            <a href="#">TalentCore</a>
+        </div>
+        <div class="header_nav">
+            <div class="search_bar">
+                <img src="img/search.svg" alt="" height="24px" width="24px">
+                <input type="text" placeholder="Search for jobs, candidates and more...">
+            </div>
+            <div class="header_navigation">
+                <img src="img/settings.svg" alt="" width="25px" height="25px">
+                <img src="img/bell.svg" alt="" width="25px" height="25px">
+                <img src="img/profile.png" alt="" width="38px" height="38px">
             </div>
         </div>
     </header>
-    <main>
-        <aside class="aside">
-            <div class="aside_container">
-                <div class="aside_bar">
-                    <ul class="main_list">
-                        <li><img src="img/dashboard_icon.svg" alt="" height="16px" width="16px">Dashboard</li>
-                        <li><img src="img/messsage_icon.svg" alt="" height="16px" width="16px">Messages</li>
-                        <li><img src="img/calendar_icon.svg" alt="" height="16px" width="16px">Calendar</li>
-                    </ul>
-                </div>
-                <div class="aside_bar">
-                    <h2>RECRUITMENT</h2>
-                    <ul class="recruitment_list">
-                        <li><img src="img/job_icon.svg" alt="" height="16px" width="16px">Jobs</li>
-                        <li><img src="img/candidates_icon.svg" alt="" height="16px" width="16px">Candidates</li>
-                        <li><img src="img/network_icon.svg" alt="" height="16px" width="16px">Referals</li>
-                        <li><img src="img/monitor_icon.svg" alt="" height="16px" width="16px">Career Site</li>
-                    </ul>
-                </div>
-                <div class="aside_bar">
-                    <h2>ORGANIZATION</h2>
-                    <ul class="organization_list">
-                        <li><img src="img/employee_icon.svg" alt="" height="16px" width="16px">Employeers</li>
-                        <li><img src="img/document_icon.svg" alt="" height="16px" width="16px">Documents</li>
-                        <li><img src="img/report_icon.svg" alt="" height="16px" width="16px">Reports</li>
-                    </ul>
+    <aside class="aside">
+        <div class="aside_block">
+            <div class="aside_blocks">
+                <ul>
+                    <li><img src="img/dashboard_icon.svg" alt="">Dashboard</li>
+                    <li><img src="img/messsage_icon.svg" alt="">Messages</li>
+                    <li><img src="img/calendar_icon.svg" alt="">Calendar</li>
+                </ul>
+            </div>
+            <div class="aside_blocks">
+                <h2>RECRUITMENT</h2>
+                <ul>
+                    <li><img src="img/job_icon.svg" alt="">Jobs</li>
+                    <li><img src="img/candidates_icon.svg" alt="">Candidates</li>
+                    <li><img src="img/network_icon.svg" alt="">Referrals</li>
+                    <li><img src="img/monitor_icon.svg" alt="">Career Site</li>
+                </ul>
+            </div>
+            <div class="aside_blocks">
+                <h2>ORGANIZATION</h2>
+                <ul>
+                    <li><img src="img/employee_icon.svg" alt="">Employees</li>
+                    <li><img src="img/document_icon.svg" alt="">Documents</li>
+                    <li><img src="img/report_icon.svg" alt="">Reports</li>
+                </ul>
+            </div>
+        </div>
+    </aside>
+    <main class="main">
+        <section class="vacancy">
+            <div class="vacancy_top">
+                <h1>Current Openings</h1>
+                <div class="sort_bar">
+                    <span>Sort By:</span>
+                    <select>
+                        <option>Latest</option>
+                        <option>Rated</option>
+                        <option>Viewed</option>
+                    </select>
                 </div>
             </div>
-        </aside>
-        <section class="vacancy">
-            <div class="vacancy_container">
-                <div class="vacancy_text_box">
-                    <div class="vacancy_text">
-                        <h1>Current Openings</h1>
+            <div class="vacancy_block">
+                <div class="vacancy_blocks">
+                    <div class="vacancy_blocks_main">
+                        <img src="img/Figma.png" alt="" width="45px" height="45px">
+                        <div class="vacancy_main_text">
+                            <h3>Sr.UX Designer</h3>
+                            <p>Posted 2 days ago</p>
+                        </div>
+                        <img src="img/arrow_vacancy.svg" alt="" height="30px" width="30px" class="vacancy_block_arrow">
                     </div>
-                    <div class="vacancy_sort">
-                        <p>Sort by:</p>
-                        <select class="sort">
-                            <option>Latest</option>
-                            <option>Rated</option>
-                            <option>Popular</option>
-                        </select>
+                    <div class="vacancy_main_btns">
+                        <a href="#"><img src="img/marker.svg" alt="" width="16px" height="16px">Bengaluru</a>
+                        <a href="#"><img src="img/exp.svg" alt="" width="16px" height="16px">3 years exp.</a>
+                    </div>
+                    <div class="vacancy_blocks_text">
+                        <h1>45</h1>
+                        <p>applications</p>
+                        <p class="vacancy_blocks_number">25 in last week</p>
                     </div>
                 </div>
                 <div class="vacancy_blocks">
-                    <div class="vacancy_block">
-                        <div class="vacancy_block_main">
-                            <img src="img/Figma.png" alt="" height="46px" width="46px">
-                            <div class="vacancy_block_logo">
-                                <h2>Sr.UX Designer</h2>
-                                <p>Posted 2 days ago</p>
-                            </div>
-                            <img src="img/arrow_vacancy.svg" alt="" height="30px" width="30px"
-                                class="vacancy_block_arrow">
+                    <div class="vacancy_blocks_main">
+                        <img src="img/Rocket.png" alt="" width="45px" height="45px">
+                        <div class="vacancy_main_text">
+                            <h3>Growth Manager</h3>
+                            <p>Posted 5 days ago</p>
                         </div>
-                        <div class="vacancy_block_span">
-                            <span><img src="img/marker.svg" alt="" height="17px" width="16px"> Bengaluru</span>
-                            <span><img src="img/exp.svg" alt="" height="17px" width="16px">3 years exp.</span>
-                        </div>
-                        <div class="vacancy_block_info">
-                            <h1>45</h1>
-                            <p>applications</p>
-                            <p class="vacancy_block_number">25 in last week</p>
-                        </div>
+                        <img src="img/arrow_vacancy.svg" alt="" height="30px" width="30px" class="vacancy_block_arrow">
                     </div>
-                    <div class="vacancy_block">
-                        <div class="vacancy_block_main">
-                            <img src="img/Rocket.png" alt="" height="46px" width="46px">
-                            <div class="vacancy_block_logo">
-                                <h2>Growth Manager</h2>
-                                <p>Posted 5 days ago</p>
-                            </div>
-                            <img src="img/arrow_vacancy.svg" alt="" height="30px" width="30px"
-                                class="vacancy_block_arrow">
-                        </div>
-                        <div class="vacancy_block_span">
-                            <span><img src="img/marker.svg" alt="" height="17px" width="16px"> Remote</span>
-                            <span><img src="img/exp.svg" alt="" height="17px" width="16px">2+ years exp.</span>
-                        </div>
-                        <div class="vacancy_block_info">
-                            <h1>38</h1>
-                            <p>applications</p>
-                            <p class="vacancy_block_number">10 in last week</p>
-                        </div>
+                    <div class="vacancy_main_btns">
+                        <a href="#"><img src="img/marker.svg" alt="" width="16px" height="16px">Remote</a>
+                        <a href="#"><img src="img/exp.svg" alt="" width="16px" height="16px">2+ years exp.</a>
                     </div>
-                    <div class="vacancy_block">
-                        <div class="vacancy_block_main">
-                            <img src="img/Coin.png" alt="" height="46px" width="46px">
-                            <div class="vacancy_block_logo">
-                                <h2>Financial Analyst</h2>
-                                <p>Posted 10 days ago</p>
-                            </div>
-                            <img src="img/arrow_vacancy.svg" alt="" height="30px" width="30px"
-                                class="vacancy_block_arrow">
+                    <div class="vacancy_blocks_text">
+                        <h1>38</h1>
+                        <p>applications</p>
+                        <p class="vacancy_blocks_number">10 in last week</p>
+                    </div>
+                </div>
+                <div class="vacancy_blocks">
+                    <div class="vacancy_blocks_main">
+                        <img src="img/Coin.png" alt="" width="45px" height="45px">
+                        <div class="vacancy_main_text">
+                            <h3>Financial Analyst</h3>
+                            <p>Posted 10 days ago</p>
                         </div>
-                        <div class="vacancy_block_span">
-                            <span><img src="img/marker.svg" alt="" height="17px" width="16px"> Mumbai</span>
-                            <span><img src="img/exp.svg" alt="" height="17px" width="16px">5+ years exp.</span>
-                        </div>
-                        <div class="vacancy_block_info">
-                            <h1>25</h1>
-                            <p>applications</p>
-                            <p class="vacancy_block_number">25 in last week</p>
-                        </div>
+                        <img src="img/arrow_vacancy.svg" alt="" height="30px" width="30px" class="vacancy_block_arrow">
+                    </div>
+                    <div class="vacancy_main_btns">
+                        <a href="#"><img src="img/marker.svg" alt="" width="16px" height="16px">Mumbai</a>
+                        <a href="#"><img src="img/exp.svg" alt="" width="16px" height="16px">5+ years exp.</a>
+                    </div>
+                    <div class="vacancy_blocks_text">
+                        <h1>25</h1>
+                        <p>applications</p>
+                        <p class="vacancy_blocks_number">25 in last week</p>
                     </div>
                 </div>
             </div>
         </section>
         <section class="candidate">
-            <div class="candidate_top">
-                <h1 class="candidate_logo">Candidates</h1>
-                <div class="candidate_date">
-                    <select>
-                        <option>March 2023</option>
-                        <option>April 2023</option>
-                        <option>May 2023</option>
-                    </select>
+            <div class="candidate_container">
+                <div class="candidate_top">
+                    <h1>Candidates</h1>
+                    <div class="date_bar">
+                        <select>
+                            <option>March 2023</option>
+                            <option>February 2023</option>
+                            <option>January 2023</option>
+                        </select>
+                    </div>
                 </div>
-            </div>
-            <div class="candidate_block">
-                <div class="candidate_block_top">
-                    <a href="">All</a>
-                    <a href="">Accepted</a>
-                    <a href="">Rejected</a>
-                </div>
-                <div class="candidate_block_bar">
-                    <span>CANDIDATE NAME</span>
-                    <span>RATING<img src="img/arrows.svg" alt="" height="16px" width="16px"></span>
-                    <span>STAGES<img src="img/arrows.svg" alt="" height="16px" width="16px"></span>
-                    <span>APPLIED ROLE</span>
-                    <span>APPLICATION DATE<img src="img/arrows.svg" alt="" height="16px" width="16px"></span>
-                    <span>ATTACHMENTS</span>
-                </div>
-                <div class="candidate_block_profiles">
-                    <div class="candidate_block_profile">
-                        <span><img src="img/profile_img_1.jpg" alt="" height="32px" width="32px" class="candidate_profile">
-                            Charlie Kristen</span>
-                        <span><img src="img/star.svg" alt="" height="16px" width="16px">4.0</span>
-                        <span>Design Challenge</span>
-                        <span>Sr. UX Designer</span>
-                        <span>12/02/23</span>
-                        <span><img src="img/pin.svg" alt="" height="15px" width="15px">3 files</span>
+                <div class="candidate_block">
+                    <div class="candidate_block_top">
+                        <a href="">All</a>
+                        <a href="">Accepted</a>
+                        <a href="">Rejected</a>
                     </div>
-                    <div class="candidate_block_profile">
-                        <span><img src="img/profile_img_2.jpg" alt="" height="32px" width="32px" class="candidate_profile">
-                            Simon Minter</span>
-                        <span><img src="img/star.svg" alt="" height="16px" width="16px">3.5</span>
-                        <span>Rejected</span>
-                        <span>Growth Manager</span>
-                        <span>18/02/23</span>
-                        <span><img src="img/pin.svg" alt="" height="15px" width="15px">2 files</span>
+                    <div class="candidate_block_bar">
+                        <div class="candidate_bar_elem">CANDIDATE NAME</div>
+                        <div class="candidate_bar_elem">RATING<img src="img/arrows.svg" alt="" height="16px"
+                                width="16px">
+                        </div>
+                        <div class="candidate_bar_elem">STAGES<img src="img/arrows.svg" alt="" height="16px"
+                                width="16px">
+                        </div>
+                        <div class="candidate_bar_elem">APPLIED ROLE</div>
+                        <div class="candidate_bar_elem">APPLICATION DATE<img src="img/arrows.svg" alt="" height="16px"
+                                width="16px">
+                        </div>
+                        <div class="candidate_bar_elem">ATTACHMENTS</div>
                     </div>
-                    <div class="candidate_block_profile">
-                        <span><img src="img/profile_img_3.jpg" alt="" height="32px" width="32px" class="candidate_profile">
-                            Malaika Brown</span>
-                        <span><img src="img/star.svg" alt="" height="16px" width="16px">2.8</span>
-                        <span>Design Challenge</span>
-                        <span>Financial Analyst</span>
-                        <span>04/01/23</span>
-                        <span><img src="img/pin.svg" alt="" height="15px" width="15px">3 files</span>
-                    </div>
-                    <div class="candidate_block_profile">
-                        <span><img src="img/profile_img_4.jpg" alt="" height="32px" width="32px" class="candidate_profile">
-                            Alexa Madison</span>
-                        <span><img src="img/star.svg" alt="" height="16px" width="16px">4.0</span>
-                        <span>Screening</span>
-                        <span>Financial Analyst</span>
-                        <span>24/03/23</span>
-                        <span><img src="img/pin.svg" alt="" height="15px" width="15px">1 file</span>
-                    </div>
-                    <div class="candidate_block_profile">
-                        <span><img src="img/profile_img_5.jpg" alt="" height="32px" width="32px" class="candidate_profile">
-                            Bob Osbourne</span>
-                        <span><img src="img/star.svg" alt="" height="16px" width="16px">5.0</span>
-                        <span>HR Round</span>
-                        <span>Sr. UX Designer</span>
-                        <span>05/03/23</span>
-                        <span><img src="img/pin.svg" alt="" height="15px" width="15px">3 files</span>
-                    </div>
-                    <div class="candidate_block_profile">
-                        <span><img src="img/profile_img_6.jpg" alt="" height="32px" width="32px" class="candidate_profile">
-                            Freddie Mercury</span>
-                        <span><img src="img/star.svg" alt="" height="16px" width="16px">4.5</span>
-                        <span>Round 2 Interview</span>
-                        <span>Growth Manager</span>
-                        <span>07/12/23</span>
-                        <span><img src="img/pin.svg" alt="" height="15px" width="15px">1 file</span>
+                    <div class="candidate_block_main">
+                        <div class="candidate_main_parent">
+                            <div class="candidate_main_child">
+                                <img src="img/profile_img_1.jpg" alt="" height="32px" width="32px"
+                                    class="candidate_profile">
+                                Charlie Kristen
+                            </div>
+                            <div class="candidate_main_child">
+                                <img src="img/star.svg" alt="" height="16px" width="16px">
+                                4.0
+                            </div>
+                            <div class="candidate_main_child">Design Challenge</div>
+                            <div class="candidate_main_child">Sr. UX Designer</div>
+                            <div class="candidate_main_child">12/02/23</div>
+                            <div class="candidate_main_child">
+                                <img src="img/pin.svg" alt="" height="15px" width="15px">3 files
+                            </div>
+                        </div>
+                        <div class="candidate_main_parent">
+                            <div class="candidate_main_child">
+                                <img src="img/profile_img_2.jpg" alt="" height="32px" width="32px"
+                                    class="candidate_profile">
+                                Simon Minter
+                            </div>
+                            <div class="candidate_main_child">
+                                <img src="img/star.svg" alt="" height="16px" width="16px">
+                                3.5
+                            </div>
+                            <div class="candidate_main_child">Rejected</div>
+                            <div class="candidate_main_child">Growth Manager</div>
+                            <div class="candidate_main_child">18/02/23</div>
+                            <div class="candidate_main_child">
+                                <img src="img/pin.svg" alt="" height="15px" width="15px">
+                                2 files
+                            </div>
+                        </div>
+                        <div class="candidate_main_parent">
+                            <div class="candidate_main_child">
+                                <img src="img/profile_img_3.jpg" alt="" height="32px" width="32px"
+                                    class="candidate_profile">
+                                Malaika Brown
+                            </div>
+                            <div class="candidate_main_child">
+                                <img src="img/star.svg" alt="" height="16px" width="16px">
+                                2.8
+                            </div>
+                            <div class="candidate_main_child">Design Challenge</div>
+                            <div class="candidate_main_child">Financial Analyst</div>
+                            <div class="candidate_main_child">04/01/23</div>
+                            <div class="candidate_main_child">
+                                <img src="img/pin.svg" alt="" height="15px" width="15px">
+                                3 files
+                            </div>
+                        </div>
+                        <div class="candidate_main_parent">
+                            <div class="candidate_main_child">
+                                <img src="img/profile_img_4.jpg" alt="" height="32px" width="32px"
+                                    class="candidate_profile">
+                                Alexa Madison
+                            </div>
+                            <div class="candidate_main_child">
+                                <img src="img/star.svg" alt="" height="16px" width="16px">
+                                4.0
+                            </div>
+                            <div class="candidate_main_child">Screening</div>
+                            <div class="candidate_main_child">Financial Analyst</div>
+                            <div class="candidate_main_child">24/03/23</div>
+                            <div class="candidate_main_child">
+                                <img src="img/pin.svg" alt="" height="15px" width="15px">
+                                1 file
+                            </div>
+                        </div>
+                        <div class="candidate_main_parent">
+                            <div class="candidate_main_child">
+                                <img src="img/profile_img_5.jpg" alt="" height="32px" width="32px"
+                                    class="candidate_profile">
+                                Bob Osbourne
+                            </div>
+                            <div class="candidate_main_child">
+                                <img src="img/star.svg" alt="" height="16px" width="16px">
+                                5.0
+                            </div>
+                            <div class="candidate_main_child">HR Round</div>
+                            <div class="candidate_main_child">Sr. UX Designer</div>
+                            <div class="candidate_main_child">05/03/23</div>
+                            <div class="candidate_main_child">
+                                <img src="img/pin.svg" alt="" height="15px" width="15px">
+                                3 files
+                            </div>
+                        </div>
+                        <div class="candidate_main_parent">
+                            <div class="candidate_main_child">
+                                <img src="img/profile_img_6.jpg" alt="" height="32px" width="32px"
+                                    class="candidate_profile">
+                                Freddie Mercury
+                            </div>
+                            <div class="candidate_main_child">
+                                <img src="img/star.svg" alt="" height="16px" width="16px">
+                                4.5
+                            </div>
+                            <div class="candidate_main_child">Round 2 Interview</div>
+                            <div class="candidate_main_child">Growth Manager</div>
+                            <div class="candidate_main_child">07/12/23</div>
+                            <div class="candidate_main_child">
+                                <img src="img/pin.svg" alt="" height="15px" width="15px">
+                                1 file
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
